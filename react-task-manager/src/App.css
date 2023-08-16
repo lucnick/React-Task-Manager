@@ -1,0 +1,48 @@
+@keyframes Slide {
+  0% {
+    opacity: 0;
+    transform: translateX(-110px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide {
+  animation-name: Slide;
+  animation-duration: 2s;
+}
+
+h1 {
+  font-family: impact;
+  font-size:60px;
+}
+
+h2 {
+  font-family:impact;
+  font-size:40px;
+}
+
+.background {
+  background-color:#a1d0ff;
+  margin-top:20px;
+}
+
+.top {
+  position:relative;
+  margin-top:2%;
+}
+
+.list-group-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-group-item > div {
+  flex-basis: 70%; /* Adjust this value as needed */
+  word-wrap: break-word;
+  margin-right: 10px; /* Adjust this value for spacing between text and button */
+}
+
